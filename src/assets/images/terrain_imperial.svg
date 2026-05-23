@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <pattern id="goldGrid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="4" fill="rgba(252,211,77,0.08)"/>
+      <circle cx="16" cy="16" r="2" fill="rgba(252,211,77,0.15)"/>
+    </pattern>
+    <pattern id="imperialPattern" x="0" y="0" width="64" height="64" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="60" height="60" fill="none" stroke="rgba(252,211,77,0.08)" stroke-width="1"/>
+      <rect x="8" y="8" width="48" height="48" fill="none" stroke="rgba(252,211,77,0.05)" stroke-width="1"/>
+      <path d="M32,15 L32,49 M15,32 L49,32" stroke="rgba(252,211,77,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="256" height="256" fill="#121010"/>
+  <rect width="256" height="256" fill="url(#imperialPattern)"/>
+  <rect width="256" height="256" fill="url(#goldGrid)"/>
+  <circle cx="128" cy="128" r="50" fill="rgba(252,211,77,0.03)"/>
+  <circle cx="128" cy="128" r="35" fill="rgba(252,211,77,0.05)"/>
+  <circle cx="128" cy="128" r="5" fill="rgba(252,211,77,0.3)"/>
+</svg>

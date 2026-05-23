@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <pattern id="swampMoss" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <ellipse cx="25" cy="25" rx="15" ry="8" fill="rgba(34,197,94,0.15)" transform="rotate(30 25 25)"/>
+      <ellipse cx="10" cy="40" rx="8" ry="5" fill="rgba(74,222,128,0.1)" transform="rotate(-20 10 40)"/>
+      <ellipse cx="40" cy="10" rx="10" ry="6" fill="rgba(34,197,94,0.12)" transform="rotate(45 40 10)"/>
+    </pattern>
+    <pattern id="bubbles" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="2" fill="rgba(16,185,129,0.3)"/>
+      <circle cx="22" cy="20" r="1.5" fill="rgba(74,222,128,0.25)"/>
+    </pattern>
+  </defs>
+  <rect width="256" height="256" fill="#082412"/>
+  <rect width="256" height="256" fill="url(#swampMoss)"/>
+  <rect width="256" height="256" fill="url(#bubbles)"/>
+  <circle cx="80" cy="100" r="20" fill="rgba(16,185,129,0.1)"/>
+  <circle cx="180" cy="180" r="25" fill="rgba(74,222,128,0.08)"/>
+  <circle cx="140" cy="60" r="15" fill="rgba(16,185,129,0.08)"/>
+  <path d="M100,200 Q130,180 160,195" stroke="rgba(74,222,128,0.2)" stroke-width="2" fill="none"/>
+</svg>

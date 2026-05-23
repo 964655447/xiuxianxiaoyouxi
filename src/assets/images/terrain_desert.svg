@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <pattern id="sandDune" x="0" y="0" width="60" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0,40 L15,25 Q30,15 45,25 L60,40 Z" fill="rgba(251,191,36,0.1)"/>
+      <path d="M0,40 L20,30 Q30,25 40,30 L60,40 Z" fill="rgba(217,119,6,0.08)"/>
+    </pattern>
+    <pattern id="sandGrain" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="0.5" fill="rgba(251,191,36,0.4)"/>
+      <circle cx="15" cy="10" r="0.5" fill="rgba(217,119,6,0.3)"/>
+      <circle cx="10" cy="15" r="0.5" fill="rgba(251,191,36,0.4)"/>
+    </pattern>
+  </defs>
+  <rect width="256" height="256" fill="#2a1808"/>
+  <rect width="256" height="256" fill="url(#sandDune)"/>
+  <rect width="256" height="256" fill="url(#sandGrain)"/>
+  <path d="M30,180 Q60,160 90,175 T150,165" stroke="rgba(180,83,9,0.2)" stroke-width="2" fill="none"/>
+  <path d="M50,100 Q80,80 110,95" stroke="rgba(180,83,9,0.15)" stroke-width="1.5" fill="none"/>
+  <circle cx="200" cy="80" r="3" fill="rgba(251,191,36,0.5

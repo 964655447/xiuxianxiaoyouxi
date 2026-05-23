@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <pattern id="peachBlossom" x="0" y="0" width="45" height="45" patternUnits="userSpaceOnUse">
+      <circle cx="22" cy="22" r="3" fill="rgba(244,114,182,0.4)"/>
+      <circle cx="8" cy="15" r="2" fill="rgba(251,146,192,0.3)"/>
+      <circle cx="35" cy="30" r="2.5" fill="rgba(244,114,182,0.35)"/>
+      <circle cx="30" cy="8" r="2" fill="rgba(251,146,192,0.3)"/>
+    </pattern>
+    <pattern id="magicCircle" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="12" fill="none" stroke="rgba(94,234,212,0.1)" stroke-width="1"/>
+      <circle cx="30" cy="30" r="8" fill="none" stroke="rgba(94,234,212,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="256" height="256" fill="#0a1920"/>
+  <rect width="256" height="256" fill="url(#magicCircle)"/>
+  <rect width="256" height="256" fill="url(#peachBlossom)"/>
+  <circle cx="60" cy="60" r="25" fill="rgba(94,234,212,0.08)"/>
+  <circle cx="200" cy="200" r="20" fill="rgba(244,114,182,0.08)"/>
+  <circle cx="150" cy="80" r="15" fill="rgba(94,234,212,0.06)"/>
+</svg>

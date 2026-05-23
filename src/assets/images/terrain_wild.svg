@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <pattern id="wildGrass" x="0" y="0" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M22,45 L22,25" stroke="rgba(52,211,153,0.2)" stroke-width="2"/>
+      <path d="M20,45 Q22,35 24,45" fill="rgba(52,211,153,0.15)"/>
+      <path d="M10,45 L10,30" stroke="rgba(34,197,94,0.15)" stroke-width="1.5"/>
+      <path d="M35,45 L35,32" stroke="rgba(52,211,153,0.18)" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="forestFloor" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="20" r="3" fill="rgba(34,197,94,0.1)"/>
+      <circle cx="35" cy="35" r="2" fill="rgba(16,185,129,0.08)"/>
+      <circle cx="25" cy="45" r="2.5" fill="rgba(52,211,153,0.1)"/>
+    </pattern>
+  </defs>
+  <rect width="256" height="256" fill="#0a1812"/>
+  <rect width="256" height="256" fill="url(#forestFloor)"/>
+  <rect width="256" height="256" fill="url(#wildGrass)"/>
+  <path d="M40,200 Q60,180 80,195" stroke="rgba(34,197,94,0.15)" stroke-width="1.5" fill="none"/>
+  <path d="M160,220 Q180,200 200,215" stroke="rgba(52,211,153,0.12)" stroke-width="1.5" fill="none"/>
+</svg>
